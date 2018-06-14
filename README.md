@@ -13,8 +13,9 @@ values=(break_check >=97).sum()
 ## Concatenating Data Frames to bottom of another data frame
 ```python
 pd.concat([df_a, df_b])
-
-Stripping and splitting the data frame column into two:
+```
+### Stripping and splitting the data frame column into two:
+```python
 df['Train_Skills_'+str(i)+'_Acc_For S_1'].astype(str).str.strip('{}').str.split(':', expand=True)
 ```
 ================================================================================
