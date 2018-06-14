@@ -8,7 +8,7 @@ break_check=np.asarray(accuray_threshlod)
 values=(break_check >=97).sum()
 ```
 
-============================================================================================
+===============================================================================
 # Pandas:
 ## Concatenating Data Frames to bottom of another data frame
 ```python
@@ -17,7 +17,7 @@ pd.concat([df_a, df_b])
 Stripping and splitting the data frame column into two:
 df['Train_Skills_'+str(i)+'_Acc_For S_1'].astype(str).str.strip('{}').str.split(':', expand=True)
 ```
-==================================================================================================================================
+================================================================================
 # List:
 #### List of Lists into Pandas Data frame: (Need to run both the below lines in the case of list of lists)
 ```python
@@ -41,7 +41,7 @@ for i in range(len(train_classes)):
 >>> merged = list(itertools.chain(*list2d))
 
 ```
-==============================================================================================================================
+================================================================================
 # List of Lists :
 ```python
 accuracy_collection=[[] for _ in range(0,len(task_samples))]
