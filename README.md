@@ -1,5 +1,5 @@
 # python_cheatsheet
-```
+```python
 NUMPY:
 
 Converting list into numpy array:
